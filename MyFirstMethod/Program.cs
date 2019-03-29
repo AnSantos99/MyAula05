@@ -14,8 +14,10 @@ namespace MyFirstMethod
          
     static void Main(string[] args)
         {
-            CountTo10();
-            CountTo10();
+            for (int j = 0; j < 2; j++)
+            {
+                CountTo10();
+            }
         }
     }
 }
